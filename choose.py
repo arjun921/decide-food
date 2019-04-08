@@ -3,4 +3,6 @@ import random
 
 item = random.choice(list(food_storage.keys()))
 recipe = food_storage.get(item, 'methi thepla')
-print(item,recipe)
+variant = random.choice(recipe.get('variants',['']))
+ingredients = recipe.get('ingredients','Nothing')+[variant]
+print(item,variant,'Ingredients:',ingredients)

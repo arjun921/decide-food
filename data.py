@@ -11,7 +11,7 @@ food_storage = {
         'variants': ['bhurjee','slice curry']
     },
     'methi thepla':{
-        'ingredients': ['methi', 'aata','curd']
+        'ingredients': ['methi','aata','curd']
     },
     'chicken': {
             'ingredients':['']
