@@ -1,19 +1,10 @@
 food_storage = {
-    'bhindi': {
-        'ingredients': ['bhindi', 'onions','tomatoes']
-        },
-    'chilly': {
-        'ingredients':['cornflower','capscicum'],
-        'variants': ['paneer','mushroom','chicken']
-        },
-    'egg': {
-        'ingredients':['tomatoes',''],
-        'variants': ['bhurjee','slice curry']
-    },
-    'methi thepla':{
-        'ingredients': ['methi','aata','curd']
-    },
-    'chicken': {
-            'ingredients':['']
-    }
+    'bhindi': ['bhindi', 'onions','tomatoes'],
+    'chilly paneer': ['cornflower','capscicum','paneer'],
+    'chilly mushroom': ['cornflower','capscicum','mushroom'],
+    'chilly chicken': ['cornflower','capscicum','chicken'],
+    'egg slice curry': ['eggs','tomatoes'],
+    'egg bhurjee': ['eggs','tomatoes'],
+    'methi thepla': ['methi','aata','curd'],
+    'chicken curry': ['chicken', 'tomatoes']
 }
